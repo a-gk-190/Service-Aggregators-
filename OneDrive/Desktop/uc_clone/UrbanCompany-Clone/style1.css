@@ -1,0 +1,529 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* text-align: center; */
+}
+
+#background_img {
+    background: rgba(0, 0, 0, 0.8) url(https://res.cloudinary.com/urbanclap/image/upload/images/growth/home-screen/1615375782838-f890f8.jpeg);
+    /* background-blend-mode: darken; */
+    background-size: cover;
+    height: 580px;
+    width: 100%;
+    /* margin-top: -25px; */
+    /* background-position: center top; */
+}
+
+/* #background_img img {
+    width: 100%;
+    display: block;
+    transition: transform 2s;
+}
+
+#background_img:hover img {
+    transition:scale(1.3);
+    cursor: pointer;
+} */
+
+#nav {
+    display: flex;
+    height: 100px;
+    /* background-color: aliceblue; */
+    justify-content: space-between;
+    padding: 0px 150px 0px 50px;
+    align-items: center;
+    /* border: 1px solid black; */
+    /* background-color: black; */
+    color: whitesmoke;
+    /* border: 1px solid red; */
+    text-align: center;
+}
+
+hr {
+    margin: 25px;
+    padding: 6px;
+    background-color: gainsboro;
+}
+
+a {
+    color: white;
+}
+
+#go1:hover {
+    /* background-color: aliceblue; */
+    cursor: pointer;
+}
+
+#nav>:first-child {
+    width: 30%;
+    padding: 40px;
+}
+
+
+#nav>div {
+    display: flex;
+    justify-content: space-between;
+    /* width: 550px; */
+    /* border: 1px solid red; */
+    height: auto;
+    align-items: center;
+}
+
+#nav>div>h3 {
+    margin: 20px;
+}
+
+#nav>div>img {
+    width: 30%;
+    height: 70%;
+    ;
+}
+
+#after-nav {
+    text-align: center;
+}
+
+#after-nav>div {
+    margin-top: 80px;
+
+}
+
+#after-nav>div>h1 {
+    font-size: 80px;
+    color: whitesmoke;
+}
+
+#after-nav0 {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    text-align: center;
+    /* border: 1px soild red; */
+    margin-right: 500px;
+
+}
+
+#after-nav0>div>input {
+    padding: 20px;
+    width: 300%;
+    margin-right: 50px;
+
+}
+
+#sel {
+    padding: 20px;
+    margin-right: 20px;
+
+}
+
+/* 
+#after-nav1{
+    display: flex;
+    justify-content: center;
+    border: 1px solid red;
+    height: 150px;
+    width: 55%;
+    margin: auto;
+    align-items: center;
+    margin-top: 230px;
+    background-color: white;
+    padding: 30px;
+}
+#after-nav1>div>img{
+    padding: 45px;
+    width: 80%;
+    border: 1px solid black;
+
+} */
+#mid-text {
+    text-align: center;
+}
+
+#after-nav1 {
+    /* border: 1px solid red; */
+    height: 170px;
+    width: 60%;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    box-shadow: 0px 2px 5px rgb(130, 126, 126);
+    display: flex;
+    margin: auto;
+    margin-top: 70px;
+    /* border-radius: 20px; */
+    justify-content: space-around;
+    background-color: white;
+    text-align: center;
+}
+
+#after-nav1>div {
+    /* border: 1px solid black; */
+    margin-left: 30px;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    padding: 20px 10px;
+}
+
+#after-nav1>div>img {
+    width: 70%;
+}
+
+#after-nav1>div>p {
+
+    margin-top: 9px;
+}
+
+#mid-text>h1 {
+    font-size: 40px;
+    margin: 80px 0px 0px 0px;
+    text-align: center;
+    /* border: 1px solid red; */
+}
+
+#mid {
+    height: 170px;
+    width: 60%;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    box-shadow: 0px 2px 5px rgb(130, 126, 126);
+    display: flex;
+    margin: auto;
+    margin-top: 80px;
+    /* border-radius: 20px; */
+    justify-content: space-around;
+    background-color: white;
+    text-align: center;
+}
+
+#mid>div {
+    /* border: 1px solid black; */
+    margin-left: 30px;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    padding: 20px 10px;
+}
+
+#mid>div>img {
+    width: 70%;
+}
+
+#mid>div>p {
+
+    margin-top: 9px;
+}
+
+#mid2 {
+    display: flex;
+    justify-content: space-around;
+
+    /* border: 1px solid red; */
+    height: 250px;
+    width: 100%;
+    margin: auto;
+    align-items: center;
+    margin-top: 80px;
+}
+
+#mid2>div>img {
+    width: 90%;
+    height: 90%;
+}
+#mid2>div>img {
+    width: 90%;
+    height: 90%;
+}
+.hov:hover{
+    width:40%;
+    cursor: pointer;
+    
+}
+
+#bit8 {
+    padding: 20px;
+    margin-right: 15px;
+    margin-left: 15px;
+    font-size: 20px;
+    background-color: teal;
+    color: brown;
+    border-radius: 10px;
+    /* border: 0px solid white; */
+
+
+}
+
+#bit8:hover {
+    background-color: blanchedalmond;
+    cursor: pointer;
+}
+
+#bit7 {
+    padding: 20px;
+    margin-right: 115px;
+    /* margin-left: 15px; */
+    font-size: 20px;
+    background-color: teal;
+    color: brown;
+    border-radius: 10px;
+    /* border: 0px solid white; */
+
+
+}
+
+#bit7:hover {
+    background-color: blanchedalmond;
+    cursor: pointer;
+}
+
+#mid3 {
+    text-align: center;
+}
+
+#mid3>div {
+    display: flex;
+    justify-content: center;
+    /* grid-template-columns: repeat(4,1fr); */
+}
+
+#mid3>div>div>img {
+    width: 80%;
+    height: 82%;
+    border-radius: 5px;
+    padding: 20px;
+}
+
+#mid3>h2 {
+    font-size: 40px;
+    margin: 80px;
+}
+.hov1:hover{
+    width:37%;
+    cursor: pointer;
+}
+.hov2:hover{
+    width:35%;
+    cursor: pointer;
+}
+#mid4 {
+    text-align: center;
+}
+
+#mid4>div {
+    display: flex;
+    justify-content: center;
+    height: 400px;
+
+}
+
+#mid4>div>div>img {
+    width: 80%;
+    height: 62%;
+    border-radius: 5px;
+    margin: 25px;
+}
+
+#mid4>h2 {
+    font-size: 40px;
+    margin-top: 80px;
+
+}
+
+#mid4>p {
+    margin: 5px 0px 60px 0px;
+    font-size: 26px;
+}
+.hov3:hover{
+    width: 32%;
+    cursor: pointer;
+}
+#mid5 {
+    text-align: center;
+}
+
+#mid5>div {
+    display: flex;
+    justify-content: space-between;
+    height: 300px;
+    /* border: 1px solid green; */
+}
+
+#mid5>div>div>img {
+    width: 90%;
+    height: 62%;
+    border-radius: 5px;
+    margin: 25px;
+}
+
+#mid5>h3 {
+    font-size: 40px;
+    margin-top: 80px;
+
+}
+
+#mid5>p {
+    margin: 5px 0px 60px 0px;
+    font-size: 26px;
+}
+
+#mid5>h1 {
+    margin-top: 60px;
+}
+.hov4:hover{
+    width: 32%;
+    cursor: pointer;
+}
+#mid6 {
+    /* border: 1px solid red; */
+    text-align: center;
+}
+
+#mid6>div {
+    display: flex;
+    justify-content: center;
+    height: 300px;
+    /* border: 1px solid green; */
+}
+
+#mid6>div>div>img {
+    width: 90%;
+    height: 62%;
+    border-radius: 5px;
+    margin: 25px;
+}
+
+#mid6>h3 {
+    font-size: 40px;
+    margin-top: 80px;
+
+}
+
+#mid6>h1 {
+    margin-top: 60px;
+}
+
+#mid6>p {
+    margin: 5px 0px 60px 0px;
+    font-size: 26px;
+}
+.hov5:hover{
+    width: 110%;
+    cursor: pointer;
+}
+#mid7 {
+    text-align: center;
+}
+
+#mid7>div {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-content: center;
+    height: 400px;
+
+}
+
+#mid7>div>div {
+    /* width: 100%;
+    height: 62%;
+    border-radius: 5px; */
+    margin: 0px;
+}
+
+/* #mid7>div>div>img:nth-child(1){
+width: 100%;
+height: 60%;
+} */
+#mid7>h1 {
+    margin-top: 60px;
+    margin-bottom: 50px;
+    font-size: 40px;
+
+}
+
+#mid7 h5 {
+    font-size: 21px;
+}
+
+#last>img {
+    width: 100%;
+    height: 200px;
+    align-items: center;
+}
+
+#lastone>img {
+    width: 100%;
+    height: 250px;
+}
+
+#lasttwo>img {
+    width: 100%;
+    height: 250px;
+}
+
+.bottom {
+    background-color: black;
+    color: whitesmoke;
+    text-align: start;
+}
+
+.bottom-top {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 15px;
+    margin-left: 85px;
+    padding: 30px;
+    /* font-size: 20px; */
+
+}
+
+.bottom-mid {
+    margin-left: 85px;
+    padding: 30px;
+}
+
+.bottom-mid>h4 {
+    margin-bottom: 15px;
+}
+
+
+.bottom-mid-in {
+    display: grid;
+    grid-template-columns: repeat(9, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+    gap: 15px;
+    font-size: 20px;
+}
+
+.bottom-last {
+
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    gap: 90px;
+    height: auto;
+    align-items: center;
+    padding: 30px;
+    margin-left: 80px;
+}
+.bottom-last>div>img{
+    width: 50%;
+}
+.bottom-last>div:nth-child(7)>img{
+    width: 150%;
+}
+.bottom-last>div:nth-child(8)>img{
+    width: 150%;
+}
+.bottom-last>div:nth-child(9)>img{
+    width: 150%;
+}
